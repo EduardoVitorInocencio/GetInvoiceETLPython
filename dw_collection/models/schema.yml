@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: getinvoice
+    # database: grenke          # O nome do seu banco de dados
+    # schema: public            # O schema onde a tabela getinvoice está localizada
+    tables:
+      - name: getinvoice
+        description: "Tabela com os dados de faturas"
